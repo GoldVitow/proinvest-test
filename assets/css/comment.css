@@ -1,0 +1,77 @@
+hr {
+text-size-adjust: none;
+font: inherit;
+margin: 2rem auto;
+border-bottom: 1px solid #000;
+}
+
+.commnets {
+  margin-bottom: 2rem;
+}
+
+.commnets-header {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.vk-header-text {
+  padding: 2px 3px 1px;
+  line-height: 100%;
+  color: rgb(69, 104, 142);
+  font-weight: bold;
+}
+
+.vk-avatar img {
+  float: left;
+  margin-right: 10px;
+}
+
+.vk-comment, .vk-comment-load {
+  margin-bottom: 15px;
+  position: relative;
+  border-bottom: 1px solid rgb(218, 225, 232);
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+
+.vk-comment-name {
+  color: rgb(43, 88, 122);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.vk-comment-text {
+  margin-left: 60px;
+  margin-bottom: 0.5rem;
+}
+
+.vk-comment-text p img {
+  margin: 5px 0 0 0;
+}
+
+.vk-comment-date {
+  margin-left: 60px;
+  color: rgb(153, 153, 153);
+}
+
+.vk-avatar img {
+  width: 48px;
+}
+
+.vk-comment-attach {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+/* @media screen and (max-width: 991px) {
+  .vk-comment-load:nth-of-type(-n+9) {
+    display: none;
+  }
+} */
